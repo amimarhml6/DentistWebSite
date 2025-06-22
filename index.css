@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.logo img{
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+.home{
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+.headers{
+    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(background.jpg);
+    height: 550px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+.name{
+    display: flex;
+    gap:30px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+.home .navbar ul{
+    display: flex;
+    gap: 20px;
+    padding-right: 20px;
+}
+ul a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+ul{
+    list-style: none;
+}
+.headers .home h1{
+    font-weight: 520;
+    font-size: 28px;
+}
+.whattsap img{
+    height: 110px;
+    width: 110px;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+}
+.center{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60vh;
+    padding: 20px;
+}
+.center .left{
+    width: 700px;
+    justify-content: center;
+    align-items: center;
+}
+.center .left p{
+    margin-top: 15px;
+    line-height: 30px;
+}
+.center .right form{
+    display: flex;
+    flex-direction: column;
+    margin-right: 90px;
+    gap: 20px;
+    padding: 40px;
+    border-radius: 10%;
+    background-color: #F0F8FF;
+}
+.center .right form input{
+    width: 180px;
+    background: none;
+    border: none;
+    padding-bottom: 3px;
+    border-bottom: 2px solid #ADD8E6;
+    color: hwb(0 22% 77%) ;
+    height: 19px;
+
+}
+.center .right form #reserver{
+       background-color: #ADD8E6;
+       color: #F0F8FF;
+       height: 25px;
+       padding-top: 1px;
+       font-size: 17px;
+       border-radius: 10px;
+       width: 100px;
+       right: 90px;
+}
+.services h1{
+    text-align: center;
+    margin-top:20px ;
+}
+.service {
+    margin-top: 25px;
+    padding: 5px;
+    display:grid;
+    margin-left: 15px;
+    grid-template-columns: repeat(4,1fr);
+    gap: 30px;
+}
+.services .service h3{
+    text-align: center;
+}
+.services .service .Consultation{
+    box-shadow: 5px 5px 5px #59899a;
+    height:200px;
+    width: 250px;
+    background-color: #ADD8E6;
+    color: #F0F8FF ;
+    border-radius: 15px;
+    display: flex;
+    padding-top: 0px;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    padding-left: 5px;
+    color: black;
+}
+.services .service .Implantologie{
+    box-shadow: 5px 5px 5px #59899a;
+    height:180px;
+    width: 250px;
+    background-color: #ADD8E6;
+    color: #F0F8FF ;
+    border-radius: 15px;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    padding-left: 5px;
+    color: black;
+}
+.services .service .Esthetique{
+    box-shadow: 5px 5px 5px #59899a;
+    height:180px;
+    width: 250px;
+    background-color: #ADD8E6;
+    color: #F0F8FF ;
+    border-radius: 15px;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    padding-left: 5px;
+    color: black;
+}
+.services .service .protheses{
+    box-shadow: 5px 5px 5px #59899a;
+    height:180px;
+    width: 250px;
+    background-color: #ADD8E6;
+    color: #F0F8FF ;
+    border-radius: 15px;
+    padding-top: 17px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    padding-left: 5px;
+    color: black;
+}
+p{
+    line-height: 30px;
+}
